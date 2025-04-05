@@ -1,0 +1,19 @@
+.vote-arrow {
+  width: 20px;
+  height: 20px;
+  transition:
+    transform 0.2s ease,
+    filter 0.2s ease,
+    fill 0.2s ease;
+}
+
+.vote-arrow:hover {
+  transform: scale(1.2);
+  filter: brightness(1.4);
+}
+
+.vote-arrow.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  transform: none;
+}

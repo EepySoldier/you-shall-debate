@@ -1,0 +1,9 @@
+.left-ui {
+  flex: 1;
+  height: 100%;
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ccc;
+}

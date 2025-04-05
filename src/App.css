@@ -1,0 +1,13 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: oklch(0.205 0 0);
+  background-position: 50%;
+  background-size: 4rem 4rem;
+  background-image:
+    linear-gradient(to right, rgb(var(--rgb) / var(--opacity)) 3px, transparent 3px),
+    linear-gradient(to bottom, rgb(var(--rgb) / var(--opacity)) 3px, transparent 3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

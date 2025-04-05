@@ -1,0 +1,19 @@
+.topic {
+  text-align: center;
+  color: #ddd;
+  font-size: 1rem;
+}
+
+.topic__title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f5f5f5;
+}
+
+.topic__text {
+  margin-top: 4px;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #bbb;
+}
